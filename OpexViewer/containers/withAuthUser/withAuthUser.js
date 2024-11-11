@@ -49,9 +49,6 @@ export async function getAuthUserParams(props) { // eslint-disable-line
             refLogin: refUserData?.refLogin || null,
         };
     } catch (error) {
-        // здесь валит ошибками про jwt
-        // console.log(error); // eslint-disable-line no-console
-
         return {
             lang: '',
         };
@@ -78,26 +75,5 @@ export async function getSignUpData(req, refLoginFromUrl) {
         return {
             lang: '',
         };
-    }
-}
-
-export async function getReferralsList(userId) {
-    if (!userId) {
-        return [];
-    }
-
-    try {
-        const refUsers = (await userDB?.getReferralsByRefId(userId)) || [];
-
-        return refUsers.map(r => {
-            return {
-                ...r,
-                _id: r._id.toString(),
-            };
-        });
-    } catch (error) {
-        console.log(error); // eslint-disable-line no-console
-
-        return [];
     }
 }

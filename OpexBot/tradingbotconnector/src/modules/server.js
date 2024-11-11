@@ -29,7 +29,7 @@ const io = require('socket.io')(http, {
     path: '/api/socket',
     cors: {
         origin: (_req, callback) => {
-            const result = _req === 'http://localhost:3000/api' ||
+            const result = _req === 'http://localhost:3000' ||
                 _req === 'https://opexflow.com';
 
             callback(null, result);

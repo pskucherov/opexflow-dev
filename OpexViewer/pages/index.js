@@ -17,7 +17,6 @@ export async function getServerSideProps(props) {
 
     const user = await getAuthUserParams(props);
 
-
     const filters = null;
     const userSignals = null;
 

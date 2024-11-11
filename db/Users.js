@@ -13,6 +13,14 @@ class Users {
         this.addTestUser();
     }
 
+    async findByIdForWeb(id) {
+        return await this.collection.findOne({ _id: new mongo.ObjectId(id) }, {
+            projection: {
+                login: 1,
+            },
+        });
+    }
+
     async addTestUser() {
         if (!(await this.get('test'))) {
             try {
