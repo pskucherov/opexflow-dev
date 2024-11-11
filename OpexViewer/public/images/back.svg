@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1800"
+   height="900"
+   fill="none"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="back.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.8961111"
+     inkscape:cx="796.7762"
+     inkscape:cy="279.54123"
+     inkscape:window-width="3840"
+     inkscape:window-height="2066"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g2" />
+  <g
+     clip-path="url(#a)"
+     id="g2">
+    <path
+       fill="#000"
+       d="M0 0h1800v900H0z"
+       id="path1" />
+    <g
+       opacity=".8"
+       filter="url(#b)"
+       id="g1">
+      <ellipse
+         cx="894.844"
+         cy="450"
+         rx="895.781"
+         ry="416.118"
+         fill="url(#c)"
+         id="ellipse1" />
+    </g>
+    <path
+       fill="url(#d)"
+       d="M -89.274644,-33.477992 1894.8542,-5.4060758e-8 1845.7531,960.26036 -15.623062,899.99997 Z"
+       id="path2"
+       style="fill:url(#d)"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+  <defs
+     id="defs8">
+    <radialGradient
+       id="d"
+       cx="0"
+       cy="0"
+       r="1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,428.5,-750.705,0,884.37694,450)">
+      <stop
+         stop-opacity="0"
+         id="stop2" />
+      <stop
+         offset="1"
+         id="stop3" />
+    </radialGradient>
+    <linearGradient
+       id="c"
+       x1="63.087"
+       y1="475.051"
+       x2="1678.72"
+       y2="477.723"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#01E5FF"
+         id="stop4"
+         offset="0"
+         style="stop-color:#1a1e56;stop-opacity:1;" />
+      <stop
+         offset="0.30000001"
+         stop-color="#2962FF"
+         id="stop5"
+         style="stop-color:#11800e;stop-opacity:1;" />
+      <stop
+         offset="0.5"
+         stop-color="#C703EB"
+         id="stop6"
+         style="stop-color:#bb25b7;stop-opacity:1;" />
+      <stop
+         offset="0.69999999"
+         stop-color="#2962FF"
+         id="stop7"
+         style="stop-color:#11800e;stop-opacity:1;" />
+      <stop
+         offset="1"
+         stop-color="#01E5FF"
+         id="stop8"
+         style="stop-color:#1a1e56;stop-opacity:1;" />
+    </linearGradient>
+    <clipPath
+       id="a">
+      <path
+         fill="#fff"
+         d="M0 0h1800v900H0z"
+         id="path8" />
+    </clipPath>
+    <filter
+       id="b"
+       x="-15.938"
+       y="18.882"
+       width="1821.56"
+       height="862.235"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood8" />
+      <feBlend
+         in="SourceGraphic"
+         in2="BackgroundImageFix"
+         result="shape"
+         id="feBlend8" />
+      <feGaussianBlur
+         stdDeviation="7.5"
+         result="effect1_foregroundBlur_1452_21769"
+         id="feGaussianBlur8" />
+    </filter>
+  </defs>
+</svg>

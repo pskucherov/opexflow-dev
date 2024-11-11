@@ -1,0 +1,22 @@
+.ParagraphHead,
+.Paragraph {
+    margin: 50px 0 30px;
+}
+.ParagraphHead {
+    margin-top: 70px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.Center {
+    text-align: center;
+    font-weight: bold;
+}
+
+.Paragraph {
+    text-indent: 15px;
+}
+
+.Link {
+    text-decoration: underline;
+}

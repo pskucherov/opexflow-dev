@@ -1,0 +1,377 @@
+
+.Back {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Overlay {
+    width: 80%;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.BackGold {
+    background: url(/images/backgold2.png) no-repeat center;
+    background-size: contain;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.MediaHeadTitle,
+.HeadTitle {
+    line-height: 80px;
+    color: #fff;
+    font-family: EuclidCircularSemibold, sans-serif;
+    font-feature-settings: "tnum" on, "lnum" on;
+    text-align: center;
+    --ui-lib-typography-line-height: 36px;
+    line-height: var(--ui-lib-typography-line-height);
+    --ui-lib-typography-font-size: 32px;
+    font-size: var(--ui-lib-typography-font-size);
+    font-style: normal;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 700px) {
+    .MediaHeadTitle {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .MediaHeadTitle,
+    .HeadTitle {
+        font-family: EuclidCircularSemibold, sans-serif;
+        font-feature-settings: "tnum" on, "lnum" on;
+        --ui-lib-typography-line-height: 52px;
+        line-height: var(--ui-lib-typography-line-height);
+        --ui-lib-typography-font-size: 48px;
+        font-size: var(--ui-lib-typography-font-size);
+        font-style: normal;
+        font-weight: 600;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    .MediaHeadTitle,
+    .HeadTitle {
+        font-family: EuclidCircularSemibold, sans-serif;
+        font-feature-settings: "tnum" on, "lnum" on;
+        --ui-lib-typography-line-height: 64px;
+        line-height: var(--ui-lib-typography-line-height);
+        --ui-lib-typography-font-size: 56px;
+        font-size: var(--ui-lib-typography-font-size);
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: normal
+    }
+}
+
+.SubHeadTitle {
+    margin-top: 50px;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-style: normal;
+    margin-inline: auto;
+    margin-top: 16px;
+    max-width: 800px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px
+}
+
+@media screen and (min-width: 768px) {
+    .SubHeadTitle {
+        margin-top: 16px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .SubHeadTitle {
+        margin-top: 20px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+.MediaBack {
+    background: url(/images/back.svg) 50% no-repeat;
+    pointer-events: none;
+    background-size: 100%;
+    bottom: 0;
+    left: 0;
+    margin-inline: auto;
+    max-width: 1800px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* background-size: cover; */
+    background-position: top;
+}
+
+.MediaVisualWrap {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 200px);
+}
+
+.MediaVisual {
+    border: 1px solid #434651;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+    border-radius: 24px;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    height: calc(100vh - 280px);
+    justify-content: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.MediaVisualSizer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: calc(100vh - 280px);
+    width: 100%;
+}
+
+
+.MediaVisualWrapFullHight {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* width: 100%; */
+    /* height: 100%; */
+
+    margin: 20px;
+}
+
+.MediaVisualWrapFullHightSelected {
+    background-color: #2a2e39; 
+}
+
+.MediaVisualFullHight {
+    border: 1px solid #434651;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+    border-radius: 24px;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+    /* justify-content: center; */
+    justify-content: top;
+    position: relative;
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.MediaVisualSizerFullHight {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.Navigation {
+    display: flex;
+    flex-flow: row nowrap;
+    /* justify-content: center; */
+
+    outline: none;
+    overflow: visible;
+    position: relative;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+
+    contain: content;
+    height: 100%;
+    margin: -17px;
+    padding: 17px;
+
+    box-sizing: content-box;
+}
+
+.NavButtonSelected,
+.NavButton {
+    display: inline-block;
+    /* background-color: rgba(0, 0, 0, .6); */
+    cursor: pointer;
+    border-radius: 8px;
+    height: 40px;
+    padding: 0 16px;
+
+    /* align-items: center;
+    display: flex;
+    justify-content: center; */
+
+    align-items: center;
+    /* background-color: initial; */
+    /* border: none; */
+    border-radius: 8px;
+    /* color: #131722; */
+    display: flex;
+    flex-flow: column nowrap;
+    flex-shrink: 0;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.NavButtons:not(:first-child) {
+    margin-left: 15px;
+}
+
+.NavButton:hover {
+    background-color: #2a2e39;
+}
+
+.NavButtonSelected {
+    background-color: #2a2e39;
+    font-weight: 600;
+}
+
+.NavText {
+    align-items: center;
+    display: flex;
+    /* justify-content: center; */
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    font-size: 16px;
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-style: normal;
+    font-weight: inherit;
+    line-height: 24px;
+
+}
+
+
+.MediaWrapAll {
+    align-items: safe center;
+    display: flex;
+    flex-direction: column;
+    justify-content: safe center;
+    /* margin-top: 32px; */
+    padding-bottom: 32px;
+    padding-inline: 20px;
+    position: relative;
+    z-index: 1
+}
+
+/* @media screen and (min-width: 1024px) {
+    .MediaWrapAll {
+        padding-inline:32px
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .MediaWrapAll {
+        padding-inline:40px
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .MediaWrapAll {
+        padding-inline:100px
+    }
+}
+
+@media screen and (min-width: 568px) {
+    .MediaWrapAll {
+        margin-top:48px
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .MediaWrapAll {
+        height:calc(100vh - 64px);
+        margin-top: 32px;
+        padding-inline:0}
+}
+
+@media screen and (min-width: 1440px) {
+    .MediaWrapAll {
+        margin-top:40px
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .MediaWrapAll {
+        margin-top:56px
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .MediaWrapAll {
+        height:auto
+    }
+} */
+
+
+
+.NextLink {
+    display: inline-block;
+    margin-top: 40px;
+    border: 1px solid #434651;
+    border-radius: 24px;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.NextLink:hover {
+    background-color: #434651;
+}
+
+.NextLinkText {
+    /* padding: 15px; */
+}
+
+.NextLinkWrap {
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .NextLink {
+        margin-top: 0;
+    }
+
+    .NextLinkWrap {
+        bottom: 15px;
+    }
+}

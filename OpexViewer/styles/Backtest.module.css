@@ -1,0 +1,25 @@
+.Backtest {
+    width: 100%;
+    text-align: center;
+}
+
+.BacktestButtons {
+    width: 300px;
+    margin: 20px auto 0;
+}
+
+.Arrow {
+    width: 12px;
+    color: #fff;
+    text-align: center;
+    font-size: 8px;
+}
+
+.BuyArrow {
+    height: 57px;
+
+}
+
+.SellArrow {
+    height: 57px;
+}

@@ -1,0 +1,78 @@
+{
+  "name": "opexviewer",
+  "author": "pskucherov",
+  "license": "Apache-2.0",
+  "version": "0.2.1",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pskucherov/OpexViewer.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "devWithAuth": "npx cross-env AUTH=1 next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint-fix": "npx eslint --fix .",
+    "l": "npx eslint --fix",
+    "test": "jest"
+  },
+  "precommit": {
+    "run": "lint-fix"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "babel-plugin-styled-components": "^2.0.7",
+    "caniuse-lite": "^1.0.30001600",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "formik": "^2.4.6",
+    "next": "^14.2.13",
+    "next-i18next": "^13.2.2",
+    "next-strict-csp": "^1.0.1",
+    "node-fetch": "^3.3.0",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^10.0.2",
+    "react-day-and-night-toggle": "^1.0.18",
+    "react-markdown": "^9.0.1",
+    "react-pricing-table": "^0.3.0",
+    "react-router-dom": "^6.3.0",
+    "shadcn": "^2.0.3",
+    "sharp": "^0.33.5",
+    "socket.io-client": "^4.5.3",
+    "technicalindicators": "^3.1.0",
+    "universal-cookie": "^4.0.4",
+    "uuid": "^9.0.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/eslint-plugin": "^7.17.7",
+    "babel-eslint": "^10.1.0",
+    "bootstrap": "^5.3.3",
+    "eslint": "8.13.0",
+    "eslint-config-next": "^13.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-no-use-extend-native": "^0.5.0",
+    "eslint-plugin-optimize-regex": "^1.2.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint-plugin-sonarjs": "^0.13.0",
+    "expect.js": "^0.3.1",
+    "highcharts": "^11.4.8",
+    "highcharts-react-official": "^3.2.1",
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.6.2",
+    "react-qrcode-logo": "^2.7.0",
+    "reactstrap": "^9.0.2"
+  }
+}

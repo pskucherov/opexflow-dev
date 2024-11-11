@@ -1,0 +1,21 @@
+.IdeaButton {
+    width: 54px;
+    position: fixed;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.RoboIdea  {
+    /* z-index: 1000; */
+    margin-left: 0;
+    /* position: fixed;
+    bottom: 20px;
+    left: 20px; */
+}
+
+
+@media screen and (min-width:600px) {
+    .RoboIdea  {
+        left: 35px;
+    }
+}

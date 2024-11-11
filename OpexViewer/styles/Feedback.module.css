@@ -1,0 +1,37 @@
+.FeedbackMessages,
+.FeedbackForm {
+    margin: 1rem auto;
+    max-width: 90%;
+    text-align: center;
+}
+
+.FeedbackMessages {
+    width: 90%;
+    text-align: left;
+}
+
+
+.label {
+    display: inline-block;
+
+    white-space: nowrap;
+    width: 70%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+    vertical-align: top;
+}
+
+.date {
+    max-width: 30%;
+    float: left;
+    text-align: left;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.Submit {
+    margin: 0 20px;
+    display: inline-block;
+    vertical-align: baseline;
+}

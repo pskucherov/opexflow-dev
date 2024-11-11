@@ -1,0 +1,39 @@
+.RobotsForm {
+    text-align: center;
+    width: calc(100%-20px);
+    max-width: 400px;
+    margin: 20px auto;
+
+    padding: 0 10px;
+}
+
+.Adviser {
+    text-align: left;
+    width: calc(100%-20px);
+    max-width: 400px;
+}
+
+.TakeProfit {
+    vertical-align: middle;
+    line-height: 38px;
+}
+
+.SettingsButton {
+    margin: 0 auto;
+}
+
+.Support,
+.Resistance,
+.TakeProfit,
+.Lots,
+.StopLoss {
+    text-align: left;
+}
+
+.SupportBlock,
+.ResistanceBlock,
+.TakeProfitBlock,
+.LotsBlock,
+.StopLossBlock {
+    width: 33%;
+}
