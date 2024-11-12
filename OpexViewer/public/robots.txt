@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /api/
-Host: https://sprd.pro
-Sitemap: https://sprd.pro/sitemap.txt
+Host: https://opexflow.com
+Sitemap: https://opexflow.com/sitemap.txt
